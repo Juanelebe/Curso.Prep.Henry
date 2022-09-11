@@ -7,7 +7,7 @@
 const nuevoNum = 9;
 
 // Crea una variable booleana:
-const nuevoBool = 'hola';
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -41,13 +41,13 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  return y -x;
+  return x - y;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  return x + y;
+  return x * y;
 }
 
 function divide(x, y) {
@@ -166,10 +166,10 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if (numero>0)  {
-    return 'es positivo';
-  } else if (numero<0) {
-    return 'es negativo';
+  if (numero > 0)  {
+    return 'Es positivo';
+  } else if (numero < 0) {
+    return 'Es negativo';
   } else { 
     return false;
     }
@@ -179,7 +179,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-   console.log(str + '!')
+   return (str + '!')
 }
 
 
@@ -187,14 +187,14 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  console.log(nombre + ' ' + apellido);
+  return (nombre + ' ' + apellido);
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  console.log('Hola ' + nombre + ' !');
+  return ('Hola ' + nombre + ' !');
 
 }
 
