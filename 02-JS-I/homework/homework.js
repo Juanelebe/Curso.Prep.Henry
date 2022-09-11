@@ -1,12 +1,12 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-var destring ='esto es una cadena';
+ const nuevaString  = "esto es una cadena";
+
+ // Crea una variable numérica, puede ser cualquier número:
+const nuevoNum = 9;
 
 // Crea una variable booleana:
-var deboleano = true;
-
-
 const nuevoBool = 'hola';
 
 // Resuelve el siguiente problema matemático:
