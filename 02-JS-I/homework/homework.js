@@ -194,7 +194,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return ('Hola ' + nombre + ' !');
+  return ('Hola ' + nombre + '!');
 
 }
 
@@ -240,15 +240,15 @@ function esVocal(letra){
   if (letra.length > 1)  {
     return 'Dato incorrecto';
   } else if (letra == 'a') {
-    return 'es vocal';
+    return 'Es vocal';
   } else if (letra == 'e') {
-    return 'es vocal';
+    return 'Es vocal';
   } else if (letra == 'i') {
-    return 'es vocal';
+    return 'Es vocal';
   } else if (letra == 'o') {
-    return 'es vocal';
+    return 'Es vocal';
   } else if (letra == 'u') {
-    return 'es vocal';
+    return 'Es vocal';
   } else { 
     return 'Dato incorrecto';
     }
